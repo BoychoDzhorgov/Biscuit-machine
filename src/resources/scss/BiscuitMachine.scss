@@ -1,0 +1,31 @@
+.biscuit-machine-heading {
+    text-align: center;
+}
+
+.devices-container {
+    display: flex;
+    place-content: center;
+
+    .device-container {
+        margin: 0 20px; 
+        .device-name {
+            text-align: center;
+        }
+        
+        .extruder {
+            padding: 0 0 30px 0;
+        }
+        .stamper {
+            padding: 0 0 30px 0;
+        }
+        .oven {
+            padding: 25px 10px 20px 10px;
+        }
+        .oven-temperature{
+            padding-top: 40px
+        }
+        .basket {
+            padding: 0 0 20px 0;
+        }
+    }
+}
